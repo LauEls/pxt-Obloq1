@@ -798,7 +798,7 @@ namespace Obloq {
         }
 
         OBLOQ_WIFI_ICON = 1
-        let timeout = 10000  //Set the default timeout period 10s.
+        let timeout = 60000  //Set the default timeout period 10s.
         timeout = timeout < 100 ? 100 : timeout //Timeout minimum resolution 100ms
 
         let timeout_count_max = timeout / 100
